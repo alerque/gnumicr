@@ -2,9 +2,9 @@ GNUMICR MICR / E13-B font
 
 A PostScript(tm) Type 1 MICR Font released under the GPL.
 
-Copyright (c) 2000, Eric Sandeen <eric_sandeen@bigfoot.com>
+Copyright (c) 2000, Eric Sandeen <sandeen-gnumicr *at* sandeen *dot* net>
 
-This font is released under the GNU General Public License
+This font is released under the GNU General Public License ("GPL")
 (see the file COPYING for details).
 
 Important details to note about the license:
@@ -13,15 +13,21 @@ Important details to note about the license:
    damages or expenses resulting from its use.
 
 2) This font may only be distributed with the license and the source code 
-   to the font inact.  It's not exactly clear to me how the GNU GPL applies to 
+   to the font intact.  It's not exactly clear to me how the GNU GPL applies to 
    fonts, but in my eyes, the font file "GnuMICR.raw" is the "source code" to
    this font, and the files "GnuMICR.pfa" and "GnuMICR.pfb" are the compiled
    versions.  if you redistribute the "compiled" version, you must also
    distribute the "source" version.
 
-   Also, it is my intention that this font should NOT be distributed with a
-   commercial application, shareware, or other binary-only, non-free
-   application.  If you have any questions, please feel free to contact me.
+   Also, it is my wish that this font not be distributed in such a way
+   that it is built into a proprietary piece of software.  I'll leave
+   the legal wrangling to the lawyers, but in my opinion, if you
+   write, say, a non-GPL'd check printing application for Windows,
+   you should not hard-code or embed this font into your application.
+   I feel that this would be the font-equivalent of linking libraries.
+   If you wish to distribute this font with your app, that's fine,
+   but I feel that it should be distributed alongside the application,
+   with all copyright & license info intact, per the terms of the GPL.
 
    I have spent MANY hours on this font.  Please respect my work, and
    follow my wishes regarding licensing of this particular font.
@@ -61,6 +67,9 @@ with a 600dpi PostScript(tm) printer, probably worse results with a 300
 dpi laserjet printer via GhostScript.  The hinting on the font is likely
 not perfect, so rendering at lower DPI may introduce some errors.
 
+I have had some very good reports of people using this font for
+commercial printing, however.
+
 I'm not a PostScript(tm) expert by any means.  If anyone who is reading
 this document _is_ and would like to offer suggestions or patches for the 
 font or its associated .afm file, please feel free to do so.
@@ -72,17 +81,13 @@ well on its way - see "comparison.png" for an overlay of GnuMICR
 vs. a sample from a commercial font.  Note the strange arcs in some
 regions of the commercial font.
 
-Finally, if anyone wants to create a TrueType font based on this font,
-that would be great.  My needs are for PostScript Type 1 fonts, but
-a freely available TrueType font would be good, too.  Perhaps running
-this font through a Type 1 -> TTF convertor would be sufficient, but my
-guess is that significant dimensional errors might be introduced.  If you
-create a TTF font based on my work, please release your font under a 
-similar license.
-
-(Note - this has been done, and is being tested)
+The TTF font provided in this package was converted by a third
+party using Windows NT.  As such, I have very little confidence
+in the quality of the TTF font.  If you want the result of my hard
+work on dimensional accuracy, use the postscript font.
 
 See the file INSTALL for help installing this font.
 
 -Eric Sandeen
  July 1, 2000
+ Updated March 2, 2003
