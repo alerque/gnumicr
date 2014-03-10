@@ -1,4 +1,4 @@
-%!FontType1-1.1: GnuMICR 000.210
+%!FontType1-1.1: GnuMICR 000.300
 %%CreationDate: Wed Aug 02 19:41:00 2000
 %%VMusage: 120000 150000
 %(The above line is most likely not correct)
@@ -7,7 +7,7 @@
 %
 %    GnuMICR - a free implementation of the MICR font
 %
-%    Copyright (C) 2000 Eric Sandeen (sandeen-gnumicr *at* sandeen *dot* net)
+%    Copyright (C) 2000-2003 Eric Sandeen (sandeen-gnumicr@sandeen.net)
 %
 %    This program is free software; you can redistribute it and/or modify
 %    it under the terms of the GNU General Public License as published by
@@ -43,14 +43,14 @@
 %
 11 dict begin
 /FontInfo 14 dict dup begin
-/version (000.210) readonly def
-/Copyright (Copyright 2000, Eric Sandeen) readonly def
-/Notice (Copyright (c) 2000, Eric Sandeen.  This font may not be distributed with commercial applications.  Released under the terms of the Gnu Public License, www.gnu.org) readonly def
+/version (000.300) readonly def
+/Copyright (Copyright 2000-2003, Eric Sandeen) readonly def
+/Notice (Copyright (c) 2000-2003, Eric Sandeen <sandeen-gnumicr@sandeen.net>.  Released under the terms of the Gnu Public License, www.gnu.org) readonly def
 /FullName (GnuMICR) readonly def
 /FamilyName (GnuMICR) readonly def
 /Weight (Normal) readonly def
 /ItalicAngle 0 def
-/IsFixedPitch false def
+/isFixedPitch false def
 /UnderlinePosition -100 def
 /UnderlineThickness 50 def
 end readonly def
@@ -97,7 +97,7 @@ dup /Private 18 dict dup begin
 /password 5839 def		% req'd, default
 /UniqueID 5116639 def		% ID assigned by Adobe
 /StemSnapH [ 78 156 234 ] ND	% Common horiz stem widths
-/StemSnapV [ 74 85 151 ] ND	% Common vert stem widths
+/StemSnapV [ 78 85 151 ] ND	% Common vert stem widths
 %
 % The following is not used, but if we do stem hint replacement
 % in the future, we'll need it.
@@ -1099,7 +1099,85 @@ ND
 	-10 hlineto
 	-30 vlineto
 	closepath
+	-10 -10 rmoveto
 		
+	40 20 rmoveto
+	
+	% -
+	20 hlineto
+	10 vlineto
+	-20 hlineto
+	-10 vlineto
+	closepath
+	
+	30 -20 rmoveto
+
+	% 2
+	30 hlineto
+	10 vlineto
+	-20 hlineto
+	10 vlineto
+	20 hlineto
+	30 vlineto
+	-30 hlineto
+	-10 vlineto
+	20 hlineto
+	-10 vlineto
+	-20 hlineto
+	-30 vlineto
+	closepath
+	
+	40 0 rmoveto
+	
+	% 0
+	30 hlineto
+	50 vlineto
+	-30 hlineto
+	-50 vlineto
+	closepath
+	
+	10 10 rmoveto
+	10 hlineto
+	30 vlineto
+	-10 hlineto
+	-30 vlineto
+	closepath
+	-10 -10 rmoveto
+
+	40 0 rmoveto
+	
+	% 0
+	30 hlineto
+	50 vlineto
+	-30 hlineto
+	-50 vlineto
+	closepath
+	
+	10 10 rmoveto
+	10 hlineto
+	30 vlineto
+	-10 hlineto
+	-30 vlineto
+	closepath
+	-10 -10 rmoveto
+
+	40 0 rmoveto
+
+	% 3
+	30 hlineto
+	50 vlineto
+	-30 hlineto
+	-10 vlineto
+	20 hlineto
+	-10 vlineto
+	-20 hlineto
+	-10 vlineto
+	20 hlineto
+	-10 vlineto
+	-20 hlineto
+	-10 vlineto
+	closepath
+	
 	endchar
 	} ND
 

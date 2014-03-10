@@ -2,7 +2,7 @@ GNUMICR MICR / E13-B font
 
 A PostScript(tm) Type 1 MICR Font released under the GPL.
 
-Copyright (c) 2000, Eric Sandeen <sandeen-gnumicr *at* sandeen *dot* net>
+Copyright (c) 2000-2003, Eric Sandeen <sandeen-gnumicr *at* sandeen *dot* net>
 
 This font is released under the GNU General Public License ("GPL")
 (see the file COPYING for details).
@@ -17,7 +17,7 @@ Important details to note about the license:
    fonts, but in my eyes, the font file "GnuMICR.raw" is the "source code" to
    this font, and the files "GnuMICR.pfa" and "GnuMICR.pfb" are the compiled
    versions.  if you redistribute the "compiled" version, you must also
-   distribute the "source" version.
+   distribute, or offer to distribute,  the "source" version (see COPYING).
 
    Also, it is my wish that this font not be distributed in such a way
    that it is built into a proprietary piece of software.  I'll leave

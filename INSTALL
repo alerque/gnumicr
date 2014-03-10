@@ -15,9 +15,6 @@ and
 "Making Fonts Available to GhostScript"
 http://www.linuxdoc.org/HOWTO/Font-HOWTO-5.html
 
-The Fonts Faq may also be helpful, particularly "part 10" at:
-http://www.faqs.org/faqs/fonts-faq/part10/
-
 I have included a test PostScript(tm) file called "test.ps" that you can
 fire up in GhostScript to see if you have that set up correctly.
 

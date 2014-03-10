@@ -1,8 +1,15 @@
 
 GnuMICR Changelog
 
-March 2, 2003
-0.22a Update contact informaiton, clarify licensing (GPL)
+December 10, 2003
+0.30 Re-generated the TTF font using pfaedit (so I can recreate)
+     Generated otf font file using pfaedit
+     Added StdVW to StemSnapV array (Thanks t1lint!)
+     Fixed typo IsFixedPitch -> isFixedPitch
+     Rebuilt pfa and pfb with t1utils v. 1.29
+     Removed blather about distribution w/ a commercial
+	application, that's not consistent w/ the GPL.
+     Updated contact information.
 
 August 12, 2000
 0.22 Included a converted TTF font (also untested)
