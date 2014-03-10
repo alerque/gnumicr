@@ -1,5 +1,13 @@
+
+GnuMICR Changelog
+
+August 2, 2000
+0.21 Added Unique ID number for the font
+     Added some copyright information
+
 July 2, 2000
 0.2  Recompiled fonts with 64 char lines (oops)
 
 July 1, 2000
 0.1  First public release
+
