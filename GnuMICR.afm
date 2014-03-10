@@ -1,0 +1,42 @@
+StartFontMetrics 2.0
+Comment Copyright (c) 2000, Eric Sandeen <eric_sandeen@bigfoot.com> 
+Comment UniqueID 4813924
+FullName GnuMICR
+FontName GnuMICR
+FamilyName GnuMICR
+Characters 17
+Weight Normal
+Notice Copyright (c) 2000, Eric Sandeen (eric_sandeen@bigfoot.com)
+Version 000.200
+IsFixedPitch false
+ItalicAngle 0.00
+FontBBox 103 0 649 702
+Ascender 0
+Descender 0
+XHeight 0
+CapHeight 702
+UnderlinePosition -100
+UnderlineThickness 50
+StdHW 78
+StdVW 78
+EncodingScheme FontSpecific
+StartCharMetrics 17
+C -1 ; WX 0 ; N .null ; B 0 0 0 0 ;
+C -1 ; WX 500 ; N CR ; B 0 0 0 0 ;
+C 32 ; WX 751 ; N space ; B 0 0 0 0 ;
+C 48 ; WX 751 ; N zero ; B 103 0 649 702 ;
+C 49 ; WX 751 ; N one ; B 337 0 649 702 ;
+C 50 ; WX 751 ; N two ; B 337 0 649 702 ;
+C 51 ; WX 751 ; N three ; B 259 0 649 702 ;
+C 52 ; WX 751 ; N four ; B 181 0 649 702 ;
+C 53 ; WX 751 ; N five ; B 259 0 649 702 ;
+C 54 ; WX 751 ; N six ; B 181 0 649 702 ;
+C 55 ; WX 751 ; N seven ; B 259 0 649 702 ;
+C 56 ; WX 751 ; N eight ; B 103 0 649 702 ;
+C 57 ; WX 751 ; N nine ; B 181 0 649 702 ;
+C 65 ; WX 751 ; N A ; B 103 0 649 702 ;
+C 66 ; WX 751 ; N B ; B 103 0 649 702 ;
+C 67 ; WX 751 ; N C ; B 103 117 649 702 ;
+C 68 ; WX 751 ; N D ; B 103 195 649 702 ;
+EndCharMetrics
+EndFontMetrics
