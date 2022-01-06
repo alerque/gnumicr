@@ -1,6 +1,14 @@
 
 GnuMICR Changelog
 
+January 5, 2022
+     Generated OTF font file such that it includes changes made
+        to add an additional glyph for '0' (zero) by way of the
+	upper-case 'O', which is narrower so as to not cause 
+	issues related to the cell text overflowing when using 
+	LibreOffice Calc (etc) with MICR character cells of a
+	fixed width that are sized to comport with ISO.
+
 December 10, 2003
 0.30 Re-generated the TTF font using pfaedit (so I can recreate)
      Generated otf font file using pfaedit
